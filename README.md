@@ -1,0 +1,3 @@
+[![codecov](https://codecov.io/gh/SergeiKPI/Lab__4/branch/master/graph/badge.svg)](https://codecov.io/gh/SergeiKPI/Lab__4)
+[![Build Status](https://travis-ci.org/SergeiKPI/Lab__4.svg?branch=master)](https://travis-ci.org/SergeiKPI/Lab__4)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/7e6c00860be34c9c97f2d85886ca990c)](https://www.codacy.com/app/SergeiKPI/Lab__4?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SergeiKPI/Lab__4&amp;utm_campaign=Badge_Grade)
