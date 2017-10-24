@@ -1,14 +1,12 @@
 import org.junit.Assert;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-import static org.junit.Assert.assertArrayEquals;
-import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+import static org.junit.Assert.*;
 
-
-class CoocktailTest {
+public class Coocktail_Test {
     Coocktail coocktailClass = new Coocktail();
     @Test
-    void cocktailSort() {
+    public void cocktailSort() {
         int[] testArray = {3,6,1,3,2};
         int[] sortedArray = {1,2,3,3,6};
 

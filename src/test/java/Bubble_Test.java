@@ -1,12 +1,11 @@
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+import static org.junit.Assert.*;
 
-
-class BubbleTest {
+public class Bubble_Test {
     Bubble bubble = new Bubble();
     @Test
-    void bubbleSort() {
+    public void bubbleSort() {
         int[] testArray = {3,6,1,3,2};
         int[] sortedArray = {1,2,3,3,6};
         assertArrayEquals(sortedArray, bubble.bubbleSort(testArray));
