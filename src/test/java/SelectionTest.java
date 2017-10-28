@@ -2,7 +2,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class Selection_Test {
+public class SelectionTest {
     Selection selectionClass = new Selection();
     @Test
     public void selectionSort() {

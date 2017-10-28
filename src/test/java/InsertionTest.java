@@ -2,7 +2,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class Insertion_Test {
+public class InsertionTest {
     Insertion insert = new Insertion();
     @Test
     public void insertionSort() {

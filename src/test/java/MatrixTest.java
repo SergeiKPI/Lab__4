@@ -2,7 +2,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class Matrix_Test {
+public class MatrixTest {
     Matrix matrix = new Matrix();
     int[][] mat= {{1,5},{4,7}};
 

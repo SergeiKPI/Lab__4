@@ -2,7 +2,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class Heap_Test {
+public class HeapTest {
     Heap heapClass = new Heap();
     @Test
     public void heapSort() {

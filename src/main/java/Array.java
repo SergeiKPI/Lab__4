@@ -1,26 +1,7 @@
 import java.util.Scanner;
 
 public class Array {
-    private static int readInteger(){
-        try{
-            Scanner vvid = new Scanner(System.in);
-            return vvid.nextInt();}
-        catch(Exception ex){
-            return readInteger();
-        }
-    }
-    public static int[] array(){
-        System.out.println("Введіть число:");
-        int count = readInteger();
-        int[] numbersArray = new int[count];
 
-        for(int i = 0; i<count; i++){
-            System.out.println("Введіть значення " + i + " елемента массива:");
-            numbersArray[i] = readInteger();
-
-        }
-        return numbersArray;
-    }
     public static int mean(int[] numbersArray){
         int max = numbersArray[0],  min = numbersArray[0];
 

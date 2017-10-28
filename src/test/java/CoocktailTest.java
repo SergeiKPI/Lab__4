@@ -3,7 +3,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class Coocktail_Test {
+public class CoocktailTest {
     Coocktail coocktailClass = new Coocktail();
     @Test
     public void cocktailSort() {

@@ -2,7 +2,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class Array_Test {
+public class ArrayTest {
     Array array = new Array();
     int[] arr = {2,1,5,7};
     @Test

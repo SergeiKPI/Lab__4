@@ -2,7 +2,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class Quick_Test {
+public class QuickTest {
     Quick quickClass = new Quick();
     @Test
     public void quickSort() {
