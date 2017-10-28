@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e544d1c6-db72-4d6b-bd98-af15f93ba3da" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/classes/Arra_Test.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/Array.class" afterPath="$PROJECT_DIR$/out/production/classes/Array.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/Main.class" afterPath="$PROJECT_DIR$/out/production/classes/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Array.java" afterPath="$PROJECT_DIR$/src/main/java/Array.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/Array_Test.java" afterPath="$PROJECT_DIR$/src/test/java/ArrayTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/Bubble_Test.java" afterPath="$PROJECT_DIR$/src/test/java/BubbleTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/Coocktail_Test.java" afterPath="$PROJECT_DIR$/src/test/java/CoocktailTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/Heap_Test.java" afterPath="$PROJECT_DIR$/src/test/java/HeapTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/Insertion_Test.java" afterPath="$PROJECT_DIR$/src/test/java/InsertionTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/Matrix_Test.java" afterPath="$PROJECT_DIR$/src/test/java/MatrixTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/Quick_Test.java" afterPath="$PROJECT_DIR$/src/test/java/QuickTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/Selection_Test.java" afterPath="$PROJECT_DIR$/src/test/java/SelectionTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -65,7 +52,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
@@ -90,6 +77,16 @@
                 <element signature="e#991#992#0" expanded="true" />
                 <element signature="e#1048#1049#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -471,7 +468,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/CoocktailTest.java" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/ArrayTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/BubbleTest.java" />
@@ -487,6 +483,7 @@
         <option value="$PROJECT_DIR$/src/test/java/MainTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Array.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -986,6 +983,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1013,13 +1011,6 @@
             <element signature="method#heapSort#0;class#Main#0" expanded="false" />
             <element signature="method#coocktailSort#0;class#Main#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1173,6 +1164,14 @@
             <element signature="e#991#992#0" expanded="true" />
             <element signature="e#1048#1049#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
