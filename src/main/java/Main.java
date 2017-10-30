@@ -9,31 +9,31 @@ public class Main {
             array[i] = (int)(Math.random()*100000);
         }
 
-        //Class Array
+
         defaultSort(array);
 
-        //Class Bubble
+
         bubbleSort(array);
 
-        //Class Insertion
+
         insetrionSort(array);
 
-        //Class Quick
+
         quickSort(array);
 
-        //Class Selection
+
         selectionSort(array);
 
-        //Class Heap
+
         heapSort(array);
 
-        //Class Coocktail
+
         coocktailSort(array);
 
-        //Class Array
+
         array();
 
-        //Class Matrix
+
         int[][] matr = {{2,7,4},{7,6,2},{9,1,8}};
         matrix(matr);
 

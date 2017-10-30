@@ -4,16 +4,7 @@ import java.util.Scanner;
 
 
 public class Matrix {
-
-    public static int readInteger(){
-        try{
-            Scanner vvid = new Scanner(System.in);
-            return vvid.nextInt();}
-        catch(Exception ex){
-            return readInteger();
-        }
-    }
-    public static String sequence(int[][] matriX){
+    public  String sequence(int[][] matriX){
         int[][] matrixB = matriX;
         int count = matriX.length;
 
@@ -42,7 +33,7 @@ public class Matrix {
         }
         return str;
     }
-    public static int sumElement(int[][] matrix){
+    public  int sumElement(int[][] matrix){
         int sum = 0;
 
         for(int r = 0, t = matrix.length-1; r<matrix.length; r++, t--){
@@ -50,15 +41,4 @@ public class Matrix {
         }
         return sum;
     }
-//    public static int[][] matriX(int countM){
-//        int[][] matrix = new int[countM][countM];
-//
-//        for(int i = 0; i<countM;i++){
-//            for(int k = 0; k<countM;k++){
-//                matrix[i][k] = (int)(Math.random()*100);
-//            }
-//        }
-//        return matrix;
-//    }
-
 }

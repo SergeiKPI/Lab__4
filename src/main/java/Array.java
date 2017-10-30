@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Array {
 
-    public static int mean(int[] numbersArray){
+    public int mean(int[] numbersArray){
         int max = numbersArray[0],  min = numbersArray[0];
 
         for(int q = 0; q<numbersArray.length-1;q++){
@@ -22,7 +22,7 @@ public class Array {
             return -1;
         }
     }
-    public static int difference(int[] numbersArray){
+    public int difference(int[] numbersArray){
         int countNeg = 0;
         int countPos = 0;
 
@@ -59,7 +59,7 @@ public class Array {
         System.out.println("Різниця між позитивними та негативними елементами масиву = " + Math.abs(dif));
         return Math.abs(dif);
     }
-    public static int countPos(int[] numbersArray){
+    public int countPos(int[] numbersArray){
         int countPos = 0;
 
         for(int r = 0; r<numbersArray.length; r++){
@@ -71,7 +71,7 @@ public class Array {
         System.out.println("Кількість позитивних елементів в масиві = " + countPos);
         return countPos;
     }
-    public static int sumNeg(int[] numbersArray){
+    public int sumNeg(int[] numbersArray){
         int countNeg = 0;
 
         for(int r = 0; r<numbersArray.length; r++){
@@ -95,7 +95,7 @@ public class Array {
         System.out.println("Сума негативних елементів масиву = " + sumNeg);
         return sumNeg;
     }
-    public static int sumMult(int[] numbersArray){
+    public int sumMult(int[] numbersArray){
         int sumMult = 0;
         for(int j = 0; j<numbersArray.length; j++){
             if(j%3 == 0 && j!=0){
@@ -106,7 +106,7 @@ public class Array {
         System.out.println("Сума елементів масиву, в яких індекс має кратне число 3 = " + sumMult);
         return sumMult;
     }
-    public static int prod(int[] numbersArray){
+    public int prod(int[] numbersArray){
         int max = numbersArray[0],  min = numbersArray[0];
 
         for(int q = 0; q<numbersArray.length-1;q++){
